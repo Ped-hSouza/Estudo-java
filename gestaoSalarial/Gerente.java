@@ -1,0 +1,14 @@
+package fundamentos.gestaoSalarial;
+
+class Gerente extends Funcionario {
+
+    public Gerente(String nome, double salarioBase) {
+        super(nome, salarioBase);
+    }
+
+    @Override
+    public double calcularSalario() {
+        return this.salarioBase + 2000;
+    }
+
+}
